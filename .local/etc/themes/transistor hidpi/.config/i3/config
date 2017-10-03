@@ -112,6 +112,7 @@ bindsym $mod+r exec $term -e ranger
 bindsym $mod+m exec $term -e htop
 bindsym $mod+p exec pavucontrol
 bindsym $mod+w exec $browser
+bindsym $mod+b exec calibre
 
 # set split orientation
 bindsym $mod+Shift+v	split h
@@ -181,7 +182,7 @@ workspace $w4 gaps outer 0
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r exec "xrdb ~/.Xresources && i3-msg restart"
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+x exec i3lock -u -e -i ~/Pictures/lock
+bindsym $mod+x exec "~/Scripts/lockrandom.sh"
 
 # titlebar
 # bar {

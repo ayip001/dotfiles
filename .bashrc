@@ -29,5 +29,6 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias weather='curl http://wttr.in/94134?m' # get rid of ?m for freedom units
 alias wifihome='sudo netctl stop-all; sudo netctl start wlp2s0-Lotsoland'
-alias wifischool='sudo netctl stop-all; sudo netctl start wlp2s0-42US\ Student'
+alias wifi42='sudo netctl stop-all; sudo netctl start wlp2s0-42US\ Student'
+alias wififh='sudo netctl stop-all; sudo netctl start wlp2s0-College\ WiFi'
 alias xclip='xclip -selection c'

@@ -1,5 +1,5 @@
 # Arch installation guide  
-Courtesy of @alan23394  
+By @ayip001, Courtesy of @alan23394  
 ### 0. Prep
 ---
 1. Get Rufus.
