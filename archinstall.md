@@ -138,4 +138,4 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 	startx && exit
 fi
 ```
-6. Reboot and spend the text week debugging and ricing your Linux :)
+6. Reboot and spend the next week debugging and ricing your Linux :^)
