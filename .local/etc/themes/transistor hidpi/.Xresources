@@ -1,0 +1,57 @@
+! github.com/ayip001 ~/.Xresources
+!
+! This determines urxvt and rofi behavior as well as defines the color palette
+! This is geared towards HiDPI so YMMW
+
+! screen info
+Xft.dpi:		288
+
+! terminal settings 
+URxvt*saveLines:	4096
+URxvt*depth:		32
+URxvt*font:		xft:Ubuntu Mono:size=12:regular
+URxvt*foreground:	#f0f5fe
+URxvt*background:	[70]#282B28
+URxvt*cursorColor:	#c0c5ce
+URxvt*scrollBar:	false
+
+! color palette
+! black (cursor)
+*color0:		#2b303b
+*color8:		#65737e
+
+! red (tag)
+*color1:		#bf616a
+*color9:		#bf616a
+
+! green (special key)
+*color2:		#a3be8c
+*color10:		#a3be8c
+
+! yellow (keyword)
+*color3:		#ebcb8b
+*color11:		#ebcb8b
+
+! blue (number)
+*color4:		#39b7b2
+*color12:		#39b7b2
+
+! magenta (precondit)
+*color5:		#b48ead
+*color13:		#b48ead
+
+! cyan (float)
+*color6:		#45bd88
+*color14:		#45bd88
+
+! white (search)
+*color7:		#f7f3f7
+*color15:		#f7f3f7
+
+! rofi
+! State:		'bg',      'fg',      'bgalt',   'hlbg',    'hlfg'
+rofi.color-normal:	#00000000, #CCf0f5fe, #00000000, #00000000, #45bd88
+rofi.color-urgent:	#00000000, #CCf0f5fe, #00000000, #00000000, #45bd88
+rofi.color-active:	#00000000, #CCf0f5fe, #00000000, #00000000, #45bd88
+!			'bg',      'border',  'separator'
+rofi.color-window:	#AA000000, #000000,   #000000
