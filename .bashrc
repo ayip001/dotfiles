@@ -2,7 +2,7 @@
 #
 # default bash settings, what more can I say
 
-# If not running interactively, do nothing
+# if not running interactively, do nothing
 [[ $- != *i* ]] && return
 
 # cycle through options with tab completion
@@ -11,6 +11,15 @@ bind "TAB:menu-complete"
 bind "set show-all-if-ambiguous on"
 bind "set menu-complete-display-prefix on"
 
+# sets the SSH agent if no such process is running
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent > ~/.ssh-agent-log
+fi
+if [[ "$SSH_AGENT_PID" == "" ]]; then
+    eval "$(<~/.ssh-agent-log)"
+fi
+
+# path setting
 PATH=~/bin:$PATH
 
 # HiDPI: This following line is used during setup out of a window manager

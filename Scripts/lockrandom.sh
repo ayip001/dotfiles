@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 # github.com/ayip001 ~/Script/lockrandom.sh
 #
