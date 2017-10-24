@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/bin/gitswapremote.sh
+# github.com/ayip001
+# ~/bin/gitswapremote.sh
 # 
 # When you clone from Github, the remote URL is http.
 # Run this to swap the remote URL from HTTP to SSH

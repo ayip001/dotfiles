@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/Script/lockrandom.sh
+# github.com/ayip001
+# ~/Script/lockrandom.sh
 #
 # It looks at the ~/Pictures directory
 # and randomly selects a file which name contains 'lock'

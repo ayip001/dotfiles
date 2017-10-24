@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 
-# github.com/ayip001 ~/.config/ranger/scope.sh
+# github.com/ayip001
+# ~/.config/ranger/scope.sh
+#
 # copied this from https://github.com/LukeSmithxyz/voidrice
 
 # ranger supports enhanced previews.  If the option "use_preview_script"

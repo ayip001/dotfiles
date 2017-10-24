@@ -1,4 +1,7 @@
-# github.com/ayip001 ~/.bashrc
+#!/bin/bash
+
+# github.com/ayip001
+# ~/.bashrc
 #
 # default bash settings, what more can I say
 

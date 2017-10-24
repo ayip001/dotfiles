@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/Scripts/brightness.sh
+# github.com/ayip001
+# ~/Scripts/brightness.sh
 #
 # called by ~/.config/i3/config from function keys because xbacklight broke
 

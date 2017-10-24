@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/bin/color.sh
+# github.com/ayip001
+# ~/bin/color.sh
 #
 # I did not write this
 

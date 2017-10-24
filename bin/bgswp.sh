@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/bin/bgswp.sh
+# github.com/ayip001
+# ~/bin/bgswp.sh
 #
 # I have a bunch of named backgrounds named ~/Pictures/bg$NUM
 # ~/.config/i3/config sets background to ~/Pictures/bg by default

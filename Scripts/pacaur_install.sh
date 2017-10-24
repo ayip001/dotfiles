@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# github.com/ayip001 ~/Scripts/pacaur_install.sh
+# github.com/ayip001
+# ~/Scripts/pacaur_install.sh
 # 
 # well, original comment below
 # pacman really is the best package manager, especially with this script

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# github.com/ayip001 ~/Scripts/toggletouchpad.sh
+# github.com/ayip001
+# ~/Scripts/toggletouchpad.sh
 # 
 # it toggles the touchpad
 # what a surprise

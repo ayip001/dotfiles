@@ -1,7 +1,8 @@
 #!/bin/bash
 #!/usr/bin/env sh
 
-# github.com/ayip001 ~/.config/polybar/launch.sh
+# github.com/ayip001
+# ~/.config/polybar/launch.sh
 # copied from https://github.com/LukeSmithxyz/voidrice
 # TODO: learn how to use polybar and make my own
 

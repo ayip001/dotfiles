@@ -1,4 +1,5 @@
-" github.com/ayip001 ~/.vimrc
+" github.com/ayip001
+" ~/.vimrc
 "
 " defines behavior for vim
 
