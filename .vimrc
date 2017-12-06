@@ -3,12 +3,32 @@
 "
 " defines behavior for vim
 
+filetype plugin indent on
+
+autocmd Filetype tex setl updatetime=1
+
 set number ai background=dark
 syntax on
-" for 42
-" set tabstop=4
-set tabstop=8
+set tabstop=4
+set shiftwidth=4
+set expandtab
+" set tabstop=8
 vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
+
+" LaTex Live Preview
+autocmd Filetype tex setl updatetime=1000
+let g:livepreview_previewer = 'mupdf'
+
+" vim-plug package
+call plug#begin('~/.vim/plugged')
+
+" A Vim Plugin for Lively Previewing LaTeX PDF Output
+Plug 'xuhdev/vim-latex-live-preview'
+
+" Web developer
+Plug 'mattn/emmet-vim'
+
+call plug#end()

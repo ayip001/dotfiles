@@ -15,9 +15,10 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # top level settings
-set $mod	Mod4
-set $term	urxvt
-set $browser	firefox-developer
+set $mod	        Mod4
+set $term	        urxvt
+set $browser	        firefox-developer
+set $browser_private    firefox-developer --private-window
 
 # i3bar and title bar font
 font pango:mono 12, DejaVu Sans Mono 12
@@ -113,6 +114,7 @@ bindsym $mod+r exec $term -e ranger
 bindsym $mod+m exec $term -e htop
 bindsym $mod+p exec pavucontrol
 bindsym $mod+w exec $browser
+bindsym $mod+Shift+w exec $browser_private
 bindsym $mod+b exec calibre
 
 # set split orientation
@@ -198,8 +200,8 @@ bindsym XF86AudioLowerVolume	exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute		exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp	exec "~/Scripts/brightness.sh +20"
-bindsym XF86MonBrightnessDown	exec "~/Scripts/brightness.sh -20"
+bindsym XF86MonBrightnessUp	exec "~/Scripts/brightness.sh +15"
+bindsym XF86MonBrightnessDown	exec "~/Scripts/brightness.sh -15"
 
 # Touchpad controls
 bindsym XF86TouchpadToggle	exec ~/Scripts/toggletouchpad.sh # toggle touchpad

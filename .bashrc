@@ -31,6 +31,9 @@ PATH=~/bin:$PATH
 # This draws the ascii Transistor o=||[(\u)\h]]}) [\w]\n\\$
 export PS1="\[\e[33m\]o=\[\e[m\]\[\e[31m\]||\[\e[m\]\[\e[36m\]>\[\e[31m\](\u)\[\e[m\]\[\e[36m\]\h]]\[\e[m\]\[\e[33m\]}) \[\e[m\][\w]\n\\$\[\e[m\] "
 
+# Environment variables
+export BROWSER='/usr/bin/firefox-developer'
+
 newalias ()
 {
 	echo "alias "$1"='"$2"'" >> ~/.bashrc
@@ -43,4 +46,5 @@ alias weather='curl http://wttr.in/94134?m' # get rid of ?m for freedom units
 alias wifihome='sudo netctl stop-all; sudo netctl start wlp2s0-Lotsoland'
 alias wifi42='sudo netctl stop-all; sudo netctl start wlp2s0-42US\ Student'
 alias wififh='sudo netctl stop-all; sudo netctl start wlp2s0-College\ WiFi'
+alias wifical='sudo netctl stop-all; sudo netctl start wlp2s0-CalVisitor'
 alias xclip='xclip -selection c'

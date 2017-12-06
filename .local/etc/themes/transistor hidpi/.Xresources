@@ -10,7 +10,7 @@ Xft.dpi:		288
 ! terminal settings 
 URxvt*saveLines:	4096
 URxvt*depth:		32
-URxvt*font:		xft:Ubuntu Mono:size=12:regular
+URxvt*font:		xft:Ubuntu Mono:size=11:regular
 URxvt*foreground:	#f0f5fe
 URxvt*background:	[70]#282B28
 URxvt*cursorColor:	#c0c5ce
