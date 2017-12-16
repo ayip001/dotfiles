@@ -17,8 +17,8 @@
 # top level settings
 set $mod	        Mod4
 set $term	        urxvt
-set $browser	        firefox-developer
-set $browser_private    firefox-developer --private-window
+set $browser	        firefox-developer-edition
+set $browser_private    firefox-developer-edition --private-window
 
 # i3bar and title bar font
 font pango:mono 12, DejaVu Sans Mono 12
