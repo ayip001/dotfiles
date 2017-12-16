@@ -11,6 +11,9 @@ set number ai background=dark
 syntax on
 set tabstop=4
 set shiftwidth=4
+autocmd BufNewFile,BufRead *.js,*.es6,*.jsx set filetype=javascript.jsx
+autocmd FileType javascript.jsx setlocal shiftwidth=2 tabstop=2
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
 set expandtab
 " set tabstop=8
 vmap <C-c> "+yi
